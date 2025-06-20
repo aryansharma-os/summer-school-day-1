@@ -1,0 +1,51 @@
+Assignment 1 - Documentation
+Name - Aryan Sharma
+University - Lovely Professional University
+
+1. What Each HTML Element Does?
+-------------------------------
+- <!DOCTYPE html>: Declares the document type and version of HTML.
+- <html>: The root element of the HTML page.
+- <head>: Contains meta-information like title and character encoding.
+- <title>: Sets the title of the web page displayed in the browser tab.
+- <body>: Contains all the visible content on the page.
+- <header>: Defines the top section of the page, typically containing headings or navigation.
+- <nav>: Holds navigation links to other pages in the website.
+- <main>: Represents the main content of the webpage.
+- <section>: Groups related content together.
+- <footer>: Defines the footer section of the page.
+- <h1> to <h6>: Headings tags used for content hierarchy.
+- <p>: Paragraph of text.
+- <a>: Anchor tag for hyperlinks.
+- <img>: Displays images.
+- <ul>, <ol>, <li>: Lists – unordered, ordered, and list items.
+- <table>, <tr>, <th>, <td>: Table elements for displaying structured data.
+- <form>: Used to create input forms.
+- <label>: Defines labels for form elements.
+- <input>: Accepts user input in various types (text, email, date, etc.).
+- <textarea>: Allows users to enter longer text messages.
+- <select>, <option>: Creates a dropdown menu.
+- <button>: Used to submit the form or trigger an action.
+- <br>: Inserts a line break.
+
+2. Why I Chose Specific Input Types:
+------------------------------------
+- type="text": For entering basic text like name.
+- type="email": Ensures the input follows an email format.
+- type="tel": Allows only telephone number input (with pattern validation).
+- type="date": Lets the user pick a date from a calendar.
+- type="range": Adds a slider for rating or selection in a given range.
+- type="checkbox": To allow selecting multiple preferred contact methods.
+- type="radio": Lets the user select only one inquiry type.
+- <select>: Dropdown used to make the country selection easier and compact.
+- <textarea>: Suitable for longer user messages or descriptions.
+- <button type="submit">: Submits the form in a semantic and flexible way.
+
+3. How My Navigation Structure Works:
+-------------------------------------
+Each page (portfolio.html, about.html, contact.html) includes a <nav> element with anchor tags <a> that link to the other pages.
+
+- On every page, I’ve added links like:
+  • <a href="portfolio.html"> ← Back to Portfolio </a>
+  • <a href="about.html">About</a>
+  • <a href="contact.html">Contact</a>

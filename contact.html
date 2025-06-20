@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+<body>
+
+    <header>
+        <h1>Contact Aryan Sharma</h1>
+    </header>
+    <hr><br><br>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+            <br><br>
+
+
+            <p>Preferred Contact Method:</p>
+            <input type="checkbox" id="contactEmail" name="contactMethod" value="email">
+            <label for="contactEmail">Email</label>
+            <br><br>
+
+            <input type="checkbox" id="contactPhone" name="contactMethod" value="phone">
+            <label for="contactPhone">Phone</label>
+            <br><br>
+
+            <input type="checkbox" id="contactText" name="contactMethod" value="text">
+            <label for="contactText">Text</label>
+            <br><br>
+
+
+            <p>Inquiry Type:</p>
+            <input type="radio" id="general" name="inquiryType" value="general" required>
+            <label for="general">General</label>
+            <br><br>
+
+            <input type="radio" id="business" name="inquiryType" value="business" required>
+            <label for="business">Business</label>
+            <br><br>
+
+            <input type="radio" id="support" name="inquiryType" value="support" required>
+            <label for="support">Support</label>
+            <br><br>
+
+
+            <label for="country">Select Your Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Please choose an option--</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="russia">Russia</option>
+                <option value="other">Other</option>
+
+            </select>
+            <br><br>
+
+
+            <label for="preferredDate">Preferred Contact Date:</label>
+            <input type="date" id="preferredDate" name="preferredDate" required>
+            <br><br>
+
+            <label for="satisfaction">Rate your satisfaction (1-10):</label>
+            <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" required>
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+
+
+
+        </form>
+
+
+
+    </main>
+    <br><br><br>
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Aryan Sharma | <a href="portfolio.html">Home</a></p>
+    </footer>
+
+    
+</body>
+</html>
